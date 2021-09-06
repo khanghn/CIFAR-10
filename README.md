@@ -1,4 +1,4 @@
-# CIFAR-10
+# CIFAR-10 (Training from scratch)
 # Model 
 Wide ResNet (depth = 28, wide = 10)
 ```` 
