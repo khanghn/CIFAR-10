@@ -109,7 +109,7 @@ if device == 'cuda':
 # Hyperparameters
 num_classes = 10
 learning_rate = 0.01
-batch_size = 128
+batch_size = 256
 num_epochs = 200
 
 # Load Data
@@ -251,7 +251,7 @@ def train(epoch):
         
         #forawrd 
         outputs = model(inputs)
-        loss = criterion_train(outputs, targets)
+        loss = criterion(outputs, targets)
         
         train_loss += loss.item()
         _, predicted = outputs.max(1)
@@ -260,7 +260,6 @@ def train(epoch):
         # _, truth = targets.max(1)
         # total += targets.size(0)
         # correct += predicted.eq(truth).sum().item()
-        # progress_bar(batch_idx, len(train_loader), 'Loss: %.3f | Acc: %.3f%% (%d/%d)' % (train_loss/(batch_idx+1), 100.*correct/total, correct, total))
 
         #backward
         optimizer.zero_grad()
