@@ -103,7 +103,7 @@ Mix Up Augmentation (alpha = 1.0)
 Cut Mix Augmentation (alpha = 1.0)  
 Cut Out Augmentation (rate >= 0.80)  
 Optimizer: Stochatic Gradient Descent  
-Scheduler : Cyclic learning rate and Cosine learning rate
+Scheduler : Cyclic learning rate and Cosine learning rate  
 Progressing Resize (32 -> 36 -> 40)  
 Test Time Augmentation
 # Data
