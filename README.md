@@ -104,7 +104,7 @@ Estimated Total Size (MB): 202.58
 - Cut Out Augmentation (rate >= 0.80)  
 - Optimizer: Stochatic Gradient Descent (initial lr = 0.1)  
 - Scheduler : Cyclic learning rate and Cosine learning rate (Tmax = 100)  
-- Progressing Resize (32 -> 36 -> 40)  
+- Progressive Resizing (32 -> 36 -> 40)  
 - Test Time Augmentation
 # Data
 CIFAR-10 datasets 
