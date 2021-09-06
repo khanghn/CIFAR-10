@@ -97,15 +97,15 @@ Estimated Total Size (MB): 202.58
 ````
 
 # Training
-Resize, RandomCrop, Rotation, Flipping  
-Label Smoothing (alpha = 0.2)  
-Mix Up Augmentation (alpha = 1.0)  
-Cut Mix Augmentation (alpha = 1.0)  
-Cut Out Augmentation (rate >= 0.80)  
-Optimizer: Stochatic Gradient Descent  
-Scheduler : Cyclic learning rate and Cosine learning rate  
-Progressing Resize (32 -> 36 -> 40)  
-Test Time Augmentation
+- Resize, RandomCrop, Rotation, Flipping  
+- Label Smoothing (alpha = 0.2)  
+- Mix Up Augmentation (alpha = 1.0)  
+- Cut Mix Augmentation (alpha = 1.0)  
+- Cut Out Augmentation (rate >= 0.80)  
+- Optimizer: Stochatic Gradient Descent  
+- Scheduler : Cyclic learning rate and Cosine learning rate  
+- Progressing Resize (32 -> 36 -> 40)  
+- Test Time Augmentation
 # Data
 CIFAR-10 datasets 
 # Result
