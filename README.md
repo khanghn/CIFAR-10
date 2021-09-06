@@ -109,7 +109,11 @@ Test Time Augmentation
 # Data
 CIFAR-10 datasets 
 # Result
-*Iter[100/100] Loss: 0.38371    Accuracy: 96.68000%*    
+````
+Epoch [230/230] Iter[100/100]  
+Loss on testing data: 0.3858  
+Accuracy on testing data: 96.6800%  
+````
 **Confusion Matrix**  
 ![image](https://user-images.githubusercontent.com/74145100/132237407-64455ffe-87e2-4644-999d-503c59998969.png)
 
